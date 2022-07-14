@@ -2,7 +2,7 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar o meu repositório!
 
-# Material de apoio
+# Material de apoio para o aprendizado em Html e Css.
 
 ### HTML5
 
