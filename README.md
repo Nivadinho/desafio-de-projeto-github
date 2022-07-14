@@ -19,6 +19,21 @@ Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma 
 E agora podemos ver como é a estrutura básica de um arquivo HTML.
 
 A primeira linha do documento deve ser o <!DOCTYPE html>, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.
+<!DOCTYPE html>
+<html lang=""pt-br">
+<head>
+    <meta charset="UFT -8">
+    <meta name="viewport"
+    content=""width=device-width, initial-scale=1.0>
+    <title>Meu primeiro exercício</title>
+</head>
+<body>
+    <h1>Olá Cláudio!</h1>
+    <hr>
+    <p>Esse é o meu primeiro documento html!</p>
+</body>
+</html>
+
 
 <html>
 
