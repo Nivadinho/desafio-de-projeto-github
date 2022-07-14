@@ -102,9 +102,9 @@ O <ol> serve para criar lista ordenadas, nessas a ordem importa, portanto elas s
 
 E o elemento li é um item dentro de uma dessas listas. Um <li> pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras listas.
 
-### CSS 3
+# CSS 3
 
-## Definição e seletores
+### Definição e seletores
 
 Após a criação do HTML a necessidade de formatar as páginas ficou evidente, assim, em 1996, foi criada a linguagem de estilo que conhecemos por CSS.
 
@@ -120,7 +120,7 @@ E há um último detalhe nesse exemplo: a pseudo-classe. Elementos HTML sofrem a
 
 O a:hover do exemplo significa que a âncora também terá essa aparência quando o usuário passar o mouse por cima de um hyperlink.
 
-## ID x Classe
+### ID x Classe
 
 No exemplo anterior criamos uma regra que altera um elemento HTML diretamente, mas isso significa que todos os elementos <a> ficarão com aquela aparência, e normalmente temos sites mais complexos que precisam de várias regras diferentes para elementos iguais.
 
@@ -134,7 +134,7 @@ Classe: a classe é representada de forma parecida do ID, mas é precedida por u
 
 E a diferença mais importante entre eles é a forma como devem ser usados: o ID só pode ser usado uma vez em uma página HTML enquanto a classe não tem restrições.
 
-## Box Model
+### Box Model
 
 Quando estamos criando o layout de um site o navegador representa cada elemento HTML  como uma caixa retangular, isso é o box-model. E com CSS nós alteramos a aparência dessa caixa (largura, altura, cor de fundo, etc.). Essa caixa é composta por 4 áreas: o conteúdo, o padding, a borda e a margem.
 
@@ -143,7 +143,7 @@ Quando estamos criando o layout de um site o navegador representa cada elemento 
 * O padding é um espaçamento entre as bordas e o conteúdo, a diferença para as margens é que declarações de imagem de fundo funcionam nele;
 * O conteúdo (content) é o que o seu bloco representa, um texto, uma imagem, um vídeo;
 
-## Exercício
+### Exercício
 
 Para enxergamos o box-model vamos adicionar cores e bordas a alguns elementos.
 
@@ -161,11 +161,11 @@ E agora inspecionando o nosso elemento conseguimos todas aquelas camadas citadas
 
 E já que começamos a falar sobre bordas e cor de fundo, no próximo vídeo vamos nos aprofundar nessas propriedades.
 
-#### Estilizaremos elementos
+# Estilizaremos elementos
 
 Agora que entendemos o box-model podemos focar em deixar nosso site mais bonito, então vamos repassar pelas propriedades já citadas:
 
-## Padding e Margin
+### Padding e Margin
 
 Anteriormente usamos o padding e o margin da forma mais básica, com apenas um valor, mas eles são mais poderosos que isso. Se quisermos atribuir tamanhos diferentes para cada lado do box nós podemos, e vamos ver três formas de fazer isso.
 
@@ -189,7 +189,7 @@ A terceira forma é com as propriedades específicas para cada lado, até agora 
 
 Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para representar o lado diferente.
 
-## Background
+### Background
 
 A propriedade background também é um atalho para várias propriedades, mas isso vocês podem absorver aos poucos, e uma boa opção de leitura é a documentação do MDN.
 
@@ -201,7 +201,7 @@ E aqui temos 3 formas de colocar uma cor de fundo, e ainda existem outras.
 
 A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho background.
 
- ## Border
+ ### Border
 
  Vimos que a propriedade border pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
 
@@ -231,19 +231,19 @@ E a última propriedade é o border-radius, ele permite arredondar os cantos de 
 
 Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no padding e margin - topo, direita, inferior e esquerda -  conseguimos alterar cada canto separadamente.
 
-### Utilizando Textos
+# Utilizando Textos
 
 Já sabemos que podemos mudar cor e tamanho de algumas fontes, e agora vamos nos aprofundar nisso.
 
-## font Family
+### font Family
 Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de web safe fonts.
 
 Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
 
-## font-size
+### font-size
 O font-size nos ajuda a mudar o tamanho do texto, existem algumas unidades de medida para ele mas por enquanto os pixels são suficientes para nós.
 
-## font-style
+### font-style
 Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
 
 
