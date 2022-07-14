@@ -4,9 +4,9 @@ Estou aprendendo a criar sites e agora vou gerenciar o meu repositório!
 
 # Material de apoio
 
-#### HTML5
+### HTML5
 
-# Definição e estrutura básica
+## Definição e estrutura básica
 
 Em 1991 Tim Berners-Lee criou essa linguagem de marcação para melhorar a comunicação entre ele e seus colegas de trabalho no CERN, desde então já surgiram 5 versões e o HTML se tornou a base da web.
 
@@ -32,7 +32,7 @@ A tag head contém elementos que serão lidos pelo navegador, como os metadados 
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos. 
 
-# Semântica
+## Semântica
 
 Durante muitos anos o elemento padrão no HTML era a div, construíamos nosso conteúdo todo baseado nela, e assim nascia a sopa de divs.
 
@@ -64,7 +64,7 @@ Esse elemento representa o rodapé do conteúdo ou de parte dele, pois ele é ac
 
 Eles não foram criados na versão 5 do HTML e nem são específicos para semântica, mas servem para esse propósito. São utilizados para marcar a importância dos títulos, sendo <h1> o mais importante e <h6> o menos. Uma dica: use apenas um <h1> por página, pois ele representa o objetivo da sua página.
 
-# Textos e links
+## Textos e links
 
 A criação do HTML foi motivada pela necessidade de compartilhar textos e documentos, e mesmo depois de quase 30 anos, com toda a evolução da web, isso ainda representa uma boa parte do conteúdo da web.
 
@@ -80,7 +80,7 @@ O href representa o hyperlink para onde sua âncora aponta, pode ser uma página
 
 O target neste momento vai servir para nos ajudar a abrir nossos links em outra aba do navegador usando o valor _blank.
 
-# Imagens
+## Imagens
 
 A web também é feita de imagens e para representá-las temos o elemento <img>, ele é um daqueles elementos sem tag de fechamento.
 
@@ -90,7 +90,7 @@ O src é obrigatório e guarda o caminho para a imagem que você quer mostrar na
 
 O alt não é obrigatório mas é altamente recomendado por melhorar a acessibilidade, ele mostra a descrição da imagem caso ela não carregue e leitores de tela usam esse atributo para descrever a imagem para o usuário saber o que ela significa.
 
-# Listas
+## Listas
 
 Os últimos elementos que veremos neste módulo são os relacionados a listas: <ul>, <ol> e <li>.
 
@@ -165,7 +165,7 @@ E já que começamos a falar sobre bordas e cor de fundo, no próximo vídeo vam
 
 Agora que entendemos o box-model podemos focar em deixar nosso site mais bonito, então vamos repassar pelas propriedades já citadas:
 
-### Padding e Margin
+## Padding e Margin
 
 Anteriormente usamos o padding e o margin da forma mais básica, com apenas um valor, mas eles são mais poderosos que isso. Se quisermos atribuir tamanhos diferentes para cada lado do box nós podemos, e vamos ver três formas de fazer isso.
 
@@ -189,7 +189,7 @@ A terceira forma é com as propriedades específicas para cada lado, até agora 
 
 Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para representar o lado diferente.
 
-### Background
+## Background
 
 A propriedade background também é um atalho para várias propriedades, mas isso vocês podem absorver aos poucos, e uma boa opção de leitura é a documentação do MDN.
 
@@ -201,7 +201,7 @@ E aqui temos 3 formas de colocar uma cor de fundo, e ainda existem outras.
 
 A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho background.
 
- ### Border
+ ## Border
 
  Vimos que a propriedade border pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
 
@@ -231,19 +231,19 @@ E a última propriedade é o border-radius, ele permite arredondar os cantos de 
 
 Colocando apenas um valor mudamos todos os cantos do elemento, mas seguindo aquela mesma ordem que vimos no padding e margin - topo, direita, inferior e esquerda -  conseguimos alterar cada canto separadamente.
 
-##### Utilizando Textos
+### Utilizando Textos
 
 Já sabemos que podemos mudar cor e tamanho de algumas fontes, e agora vamos nos aprofundar nisso.
 
-#### font Family
+## font Family
 Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador, mas vamos nos ater às fontes seguras, chamadas de web safe fonts.
 
 Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
 
-#### font-size
+## font-size
 O font-size nos ajuda a mudar o tamanho do texto, existem algumas unidades de medida para ele mas por enquanto os pixels são suficientes para nós.
 
-#### font-style
+## font-style
 Usamos o font-style para tornar um texto itálico, na maioria das vezes você usará apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
 
 
