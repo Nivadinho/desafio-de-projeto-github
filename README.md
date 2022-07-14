@@ -92,7 +92,10 @@ O alt não é obrigatório mas é altamente recomendado por melhorar a acessibil
 
 ## Listas
 
-Os últimos elementos que veremos neste módulo são os relacionados a listas: <ul>, <ol> e <li>.
+Os últimos elementos que veremos neste módulo são os relacionados a listas: 
+* <ul>
+* <ol> 
+* <li>
 
 Listas servem para agrupar uma coleção de itens, como uma lista de ingredientes ou, como será no nosso caso, uma lista com contatos.
 
