@@ -9,18 +9,33 @@
     <style>
         .flex-container{
             display: flex;
-            height: 150px;
+            border: 2px solid black;
+            max-width: 310px;
+            flex-direction: column;
         }
 
         .item{
             font-size: 24px;
             height: 50%;
             text-align: center;
-            width: 100px;
+            min-width: 100px;
+            line-height: 50px;
 
         }
         .nowrap{
             flex-wrap: nowrap;
+        }
+
+        .wrap{
+            flex-wrap: wrap;
+            border: 2px solid black;
+            max-width: 300px;
+        }
+
+        .wrap-reverse{
+            flex-wrap: wrap-reverse;
+            border:  2px solid black;
+            max-width: 300px;
         }
 
         .blue{
@@ -39,10 +54,29 @@
 <body>
     <h1>now wrap</h1>
 
-    <div class="flex-container">
+    <div class="flex-container nowrap">
         <div class="item orange">1</div>
         <div class="item green">2</div>
         <div class="item blue">3</div>
+        <div class="item orange">4</div>
     </div>    
+
+    <h1>wrap</h1>
+
+    <div class="flex-containe wrap">
+        <div class="item green">1</div>
+        <div class="item blue">2</div>
+        <div class="item orange">3</div>
+        <div class="item orange">4</div>
+    </div>
+
+    <h1>wrap reverse</h1>
+
+    <div class="flex-containe wrap-reverse ">
+        <div class="item green">1</div>
+        <div class="item blue">2</div>
+        <div class="item orange">3</div>
+        <div class="item orange">4</div>
+    </div>
 </body>
 </html>
