@@ -58,7 +58,7 @@ header .menu{
 
 .apresentação .texto-apresentação{
 
-    min-height: 200px;
+    min-height: 400px;
 }
 
 .texto-apresentação h1{
@@ -91,14 +91,14 @@ header .menu{
     font-size: 32px;
     color: #122A57;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #quem-somos h2 ::before{
     content: "";
     height: 50px;
     width: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
     background-color: #122A57;
     position: relative;
 }
@@ -109,7 +109,7 @@ header .menu{
 }
 
 #quem-somos img{
-    min-width: 420px;
+    min-width: 200px;
 }
 
 .container-externo{
@@ -119,8 +119,56 @@ header .menu{
 
 #servicos{
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2{
+    color: #fff;
+    font-size: 100px;
+    margin-bottom: 20px;
 }
 
 .list-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-servicos .item-servicos{
+    text-align: center;
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 10px;
+    color: #122A57;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.item-servico p{
+    font-weight: 700px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.item-servico img{
+    width: 80%;
+    margin: auto;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.list-planos{
     display: flex;
 }
