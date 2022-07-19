@@ -120,7 +120,7 @@ header .menu{
 #servicos{
     flex-direction: column;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #servicos h2{
@@ -171,4 +171,15 @@ header .menu{
 
 .list-planos{
     display: flex;
+    align-items: flex-end;
+}
+
+.item-plano{
+    flex: 1;
+    border: 10px solid azure;
+    margin-right: 100px;
+    background-color: white;
+    color: #122A57;
+    justify-content: center;
+    text-align: center; 
 }
